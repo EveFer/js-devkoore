@@ -6,36 +6,47 @@ Práctica 1:
 
 Crear un función que permita indicar la cantidad de koders a guardar, 
 que pida tantos nombres completos de koders como
-se haya indicado, y al finl imprima el nombre del koder y 
+se haya indicado, y al final imprima el nombre del koder y 
 su numero asignado
 
 p. eje
 
 input: "Fernanda Palacios Vera", "Jonatan Arevalo Hernandez", "Victor Torres Jimenez"
 Output: 
-   koder 1: "Fernanda"
-   koder 2: "Jonatan"
-   koder 3: "Victor"
+   koder 1: "Fernanda Palacios Vera"
+   koder 2: "Jonatan Arevalo Hernandez"
+   koder 3: "Victor Torres Jimenez"
+
+Algoritmo:
+1.- Necesito alamacenar el numero total de koders a guardar
+2.- ¿donde puedo guardar a los koders? Guardarlo en un arreglo, tengo que declarar mi arreglo
+3.- ¿como socilito un dato al usuario? promt()
+4.- Como guardo un valor en el arreglo ? utilizar el metodo .push()
+5.- Tengo que utilizar in ciclo para solicitar cada nombre tantas veces se indiquen (while, for)
+6.- como hacer una función? (function, arrow function)
+
 */
+
+
 
 
 /*
 A partir de la práctica anterior:
 Crear un función que me permita saber el nombre de algun koder basado en su número asignado
 
-- imprimir la lista de koders en orden alfabetico descendiente
-- Crear una nueva lista que contenga los nombre de los koders con la siguiente estrucutura
+- función que permita imprimir la lista de koders en orden alfabetico descendiente
+- Funcion que permita Crear una nueva lista que contenga los nombre de los koders con la siguiente estrucutura
    [
        "Koder 1: Fernanda Palacios Vera (F. P V.)"
    ]
 
-- Permitir agregar un koder en alguna posicion deseada, por ejemplo: "Fanny Lopez, lugar 3"
+- Función que Permita agregar un koder en alguna posicion deseada, por ejemplo: "Fanny Lopez, lugar 3"
 */
 
 
 /*
-Ejercicio
-   Dado como siguiente estructura de arreglo:
+Práctica 2:
+   Dado la siguiente estructura de arreglo:
    let namesArray = [
        'Jonatan Arevalo',
        'Fernanda Palacios',
@@ -43,9 +54,9 @@ Ejercicio
    ]
 
 
-   1 Funcion que me regrese un numero aleatorio desde 0 hasta array.length
+   1. Funcion que me regrese un numero aleatorio desde 0 hasta array.length
 
-   2 Funcion que reciba el un indice aleatorio para imprimir el nombre de un arreglo
+   2. Funcion que reciba el un indice aleatorio para imprimir el nombre de un arreglo
 */
 
 
@@ -58,7 +69,7 @@ let dataArray = [
 ]
 
 /*
-
+Output:
 kodersArray = [
     {
         name: "Fernanda",
@@ -78,10 +89,10 @@ kodersArray = [
 /*
 Dado el siguiente array realizar lo siguiente:
 - Obtener el score promedio de cada materia (HTML, CSS, js)
-- Obtener el promedio individual de cada mentor
+- Obtener el promedio individual de cada koder
 - Crear un array de string con la siguiente forma:
     "Mi nombre es {nombre}  y mi promedio es de {promedio}"
-- Obtener la lista de mentores cuyo promedio sea mayor a 9.5
+- Obtener la lista de koders cuyo promedio sea mayor a 8.5
 */
 
 let kodersArray = [
